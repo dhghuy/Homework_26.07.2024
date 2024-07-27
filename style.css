@@ -1,0 +1,51 @@
+body {
+    background-color: #E6B9A6;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #EEEDEB;
+    border: 1px solid #2f364562;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#2F3645;
+}
+
+.key-space {
+    width: 200px;
+}
+
+.key-backspace {
+    width: 80px;
+}
+
+#play-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keyboard {
+    display: flex;
+    align-items: center;
+}
+#play-card {
+    color: #2F3645;
+}
